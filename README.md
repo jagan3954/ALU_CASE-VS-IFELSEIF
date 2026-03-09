@@ -198,8 +198,10 @@ The Liberty files are present in the library path,
 #### Fig 8: Synthesis RTL Schematic using case and ifelseif construct
 
 #### Fig 9: Area report of case and ifelseif construct
+<img width="1598" height="875" alt="image" src="https://github.com/user-attachments/assets/9e07c470-cf90-474d-9e45-379cc7ff8582" />
 
 #### Fig 10: Power Report of case and ifelseif construct
+<img width="1410" height="876" alt="image" src="https://github.com/user-attachments/assets/eed3c11c-f392-4457-af2a-96196ec472e8" />
 
 #### Fig 11: Timing Report of case and ifelseif construct
 
