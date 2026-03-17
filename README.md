@@ -124,7 +124,7 @@ Left side select the file and in Tools: launch verilog compiler with current sel
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
 #### Fig 4: Compiled database in WorkLib
-<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/77e47c7a-327a-4ece-a748-4ebfed923475" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/37110954-9518-4559-b5a3-adbe05821eda" />
 
 After compilation, it will come under worklib. You can see on the right side window
 
@@ -182,6 +182,7 @@ Synthesis requires three files as follows,
 ◦ Verilog/VHDL Files (.v or .vhdl or .vhd)
 
 ##### Performing Synthesis
+<img width="1919" height="1079" alt="Screenshot 2026-02-10 114623" src="https://github.com/user-attachments/assets/db8f9458-f354-464e-b826-a42e9da1fb5f" />
 
 ##### Synthesize Design
 
@@ -196,6 +197,7 @@ The Liberty files are present in the library path,
 • Genus Script file with .tcl file Extension commands are executed one by one to synthesize the netlist. Or use source run.tcl command in the terminal window to view the netlist, and a log file will be created in the working folder.
 
 #### Fig 8: Synthesis RTL Schematic using case and ifelseif construct
+<img width="1919" height="1079" alt="Screenshot 2026-02-09 115945" src="https://github.com/user-attachments/assets/4ab9039b-a90e-4aa6-9604-86f582c0a0fa" />
 
 #### Fig 9: Area report of case and ifelseif construct
 <img width="1598" height="875" alt="image" src="https://github.com/user-attachments/assets/9e07c470-cf90-474d-9e45-379cc7ff8582" />
@@ -204,8 +206,10 @@ The Liberty files are present in the library path,
 <img width="1410" height="876" alt="image" src="https://github.com/user-attachments/assets/eed3c11c-f392-4457-af2a-96196ec472e8" />
 
 #### Fig 11: Timing Report of case and ifelseif construct
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/5e70610f-8beb-4608-91bc-b96ef899773b" />
 
 #### Fig 12: Tabulate Area,Power and Timing Report Comparision of ALU using case and ifelseif construct
+<img width="1317" height="631" alt="image" src="https://github.com/user-attachments/assets/28a51748-47c1-41cc-9bdb-6a27228bdcbf" />
 
 ## Result
 The 32-bit ALU implemented using behavioural case statements and if–elseif constructs was successfully verified under Incisive (ncvlog/ncsim) for all tested vectors. Both implementations were functionally correct and synthesizable. Synthesis using Cadence Genus generated gate-level netlists along with area, timing, and power reports.
